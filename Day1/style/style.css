@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.divider {
+    height: 16px;
+    width: 100%;
+}
+
+
+.header, .footer {
+    background-color: grey;
+    height: 45px;      
+}
+
+.main {
+    padding: 0 16px;
+}
+
+.section  {
+    display: flex;
+}
+
+.sub-section {
+    background-color: grey;
+    border-radius: 50%;
+    padding: .5em;
+    height: 75px;
+    width: 75px;
+    font-size: small;
+}
+
+.modal {
+    background-color: grey;
+    padding: 8px;
+}
+
+.modal input {
+    padding: 8px;
+}
+
+.data  {
+    background-color: grey;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
